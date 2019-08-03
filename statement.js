@@ -1,46 +1,46 @@
-var fs=require('fs');
-var dataI=fs.readFileSync('invoice.json', 'utf8');
-// var invoice=JSON.parse(dataI);
-let invoice = JSON.parse(fs.readFileSync('invoice.json').toString());
-// console.log(invoice);
+// var fs=require('fs');
+// var dataI=fs.readFileSync('invoice.json', 'utf8');
+// // var invoice=JSON.parse(dataI);
+// let invoice = JSON.parse(fs.readFileSync('invoice.json').toString());
+// // console.log(invoice);
 
-var dataP=fs.readFileSync('play.json');
-// var play=JSON.parse(dataP);
-var plays = JSON.parse(fs.readFileSync('play.json').toString());
-// console.log(play);
+// var dataP=fs.readFileSync('play.json');
+// // var play=JSON.parse(dataP);
+// var plays = JSON.parse(fs.readFileSync('play.json').toString());
+// // console.log(play);
 
-// invoice = {
-//     customer: 'BigCo',
-//     performances: [{
-//             "playID": "hamlet",
-//             "audience": 55
-//         },
-//         {
-//             "playID": "asLike",
-//             "audience": 35
-//         },
-//         {
-//             "playID": "othello",
-//             "audience": 40
-//         }]
-// }
+invoice = {
+    customer: 'BigCo',
+    performances: [{
+            "playID": "hamlet",
+            "audience": 55
+        },
+        {
+            "playID": "asLike",
+            "audience": 35
+        },
+        {
+            "playID": "othello",
+            "audience": 40
+        }]
+}
 
 // console.log('invoice', invoice);
 
-// play = {
-//     hamlet: {
-//         "name": "Hamlet",
-//         "type": "tragedy"
-//     },
-//     asLike: {
-//         "name": "As You Like It",
-//         "type": "comedy"
-//     },
-//     othello: {
-//         "name": "Othello",
-//         "type": "tragedy"
-//     }
-// }
+plays = {
+    hamlet: {
+        "name": "Hamlet",
+        "type": "tragedy"
+    },
+    asLike: {
+        "name": "As You Like It",
+        "type": "comedy"
+    },
+    othello: {
+        "name": "Othello",
+        "type": "tragedy"
+    }
+}
 
 // console.log('play', play);
 
