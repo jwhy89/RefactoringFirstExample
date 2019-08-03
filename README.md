@@ -43,4 +43,3 @@ Steps to test the solution.
 ## Resources
 
 * Refactoring: Improving the Design of Existing Code (Web Edition)
-* Thank you to Arnaud M. on [Stack Overflow](https://stackoverflow.com/questions/14484613/load-local-json-file-into-variable/14484713#14484713) for his response.
