@@ -31,6 +31,7 @@ Steps to test the solution.
 ### Completed Features
 
 - [x] Set up json files and imported data into the needed variables for the function.
+- [x] Created local objects instead of using npm file-system package.
 
 ### Next Steps
 
